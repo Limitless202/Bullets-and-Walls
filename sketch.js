@@ -10,7 +10,7 @@ function setup() {
   wall=createSprite(1200,200,thickness,height/2);
   wall.shapeColor=color(80.80,80);
 
-  bullet=createSprite(100,100,50,10);
+  bullet=createSprite(100,180,50,10);
   bullet.shapeColor=color(0);
   
   thickness=random(22,83);
